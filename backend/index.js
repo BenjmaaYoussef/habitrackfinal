@@ -12,9 +12,9 @@ app.use(cors());
 const PORT = 3001;
 
 //Supabase credentials
-const supabaseUrl = "https://spatsliwioairmhzucjd.supabase.co";
+const supabaseUrl = "https://wvodopbhaxbxjbgjrlsn.supabase.co";
 const supabaseAnonKey =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNwYXRzbGl3aW9haXJtaHp1Y2pkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTgzMzg3MDUsImV4cCI6MjAzMzkxNDcwNX0.2n3FVfCHNxbnwpj7-kIWgg3ZZDj0BftF5c63jfYvRtg";
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Ind2b2RvcGJoYXhieGpiZ2pybHNuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTMxMTU2MzMsImV4cCI6MjAyODY5MTYzM30.tpLigEc6cAReLy34IUBataBSfyvA70g42EVLm7yQjy0";
 
 const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
